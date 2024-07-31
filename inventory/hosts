@@ -1,0 +1,12 @@
+[all]
+localhost ansible_python_interpreter=/home/santosh/work/myenv/bin/python3
+
+[all:children]
+localhost
+
+[all:vars]
+ansible_connection=local
+
+
+[localhost]
+localhost ansible_user=santosh ansible_ssh_private_key_file=/home/santosh/.ssh/authorized_keys

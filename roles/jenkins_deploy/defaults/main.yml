@@ -1,0 +1,6 @@
+---
+
+# Default variables
+jenkins_namespace: jenkins
+deployment_file: "files/deployment.yaml"
+service_file: "files/service.yaml"
