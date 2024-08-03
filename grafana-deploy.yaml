@@ -1,0 +1,9 @@
+---
+# Grafana Deploy playbook
+- name: Deploy grafana to Kubernetes
+  hosts: all
+  vars:
+    ansible_python_interpreter: /home/santosh/work/myenv/bin/python3
+  gather_facts: no
+  roles:
+    - grafana

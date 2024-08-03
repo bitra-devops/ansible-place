@@ -1,6 +1,6 @@
 ---
-
+# defaults file for grafana
 # Default variables
-jenkins_namespace: devops
+devops_namespace: devops
 deployment_file: "files/deployment.yaml"
 service_file: "files/service.yaml"
